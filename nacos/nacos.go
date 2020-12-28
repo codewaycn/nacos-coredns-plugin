@@ -16,12 +16,12 @@ package nacos
 import (
 	"github.com/miekg/dns"
 	"net"
-	"github.com/coredns/coredns/plugin/proxy"
-	"github.com/coredns/coredns/plugin"
+	"github.com/codewaycn/coredns/plugin/proxy"
+	"github.com/codewaycn/coredns/plugin"
 	"time"
 	"strconv"
 	"encoding/json"
-	"github.com/coredns/coredns/request"
+	"github.com/codewaycn/coredns/request"
 	"context"
 )
 

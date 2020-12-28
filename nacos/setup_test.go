@@ -15,7 +15,7 @@ package nacos
 
 import (
 	"testing"
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 	"strings"
 	"fmt"
 	os "os"

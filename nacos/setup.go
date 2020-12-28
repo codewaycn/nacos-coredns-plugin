@@ -14,14 +14,14 @@
 package nacos
 
 import (
-	"github.com/mholt/caddy"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/core/dnsserver"
+	"github.com/caddyserver/caddy"
+	"github.com/codewaycn/coredns/plugin"
+	"github.com/codewaycn/coredns/core/dnsserver"
 	"fmt"
 	"strings"
 	"strconv"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	"github.com/coredns/coredns/plugin/proxy"
+	"github.com/codewaycn/coredns/plugin/pkg/parse"
+	"github.com/codewaycn/coredns/plugin/proxy"
 )
 
 func init() {
